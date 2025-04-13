@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #ffcccb;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.tablink {
+    background-color: #ddd;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.tablink:hover {
+    background-color: #ffcccb;
+}
+
+.tablink.active {
+    background-color: #ff6666;
+    color: white;
+}
+
+/* Tab Content */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.recipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-card h3 {
+    color: #ff6666;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcccb;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
